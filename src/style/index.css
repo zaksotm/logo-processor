@@ -1,0 +1,48 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: grey;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.button {
+}
+
+.square:focus {
+  outline: none;
+}
+
+.workDisplay {
+  float: left;
+  margin-right: 20px;
+}
+
+.bmpPreview {
+  float: right;
+  position: relative;
+  margin-right: 20px;
+}
+
+.panelDisplay {
+  float: right;
+}
+
+#previewComponent{
+  position: absolute;
+}
+
+.workImage {
+  width:400px;
+  height:auto;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+
+.hide {
+  display: none;
+}
