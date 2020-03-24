@@ -1,7 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  background-color: grey;
+  background-color: white;
 }
 
 ol, ul {
@@ -11,8 +11,31 @@ ol, ul {
 .button {
 }
 
-.square:focus {
-  outline: none;
+div.gallery {
+  display: flex-wrap;
+  float: left;
+  height: auto;
+  margin: 10px;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+div.gallery img {
+  width:400px;
+  height:auto;
+  margin: 10px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 .workDisplay {
@@ -26,8 +49,37 @@ ol, ul {
   margin-right: 20px;
 }
 
-.panelDisplay {
-  float: right;
+.selectImageDisplay {
+  float: left;
+  margin: 20px;
+  text-align: center;
+  /*
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  */
+}
+
+.optionsDisplay {
+  float:left;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.buttonDisplay {
+  float: left;
+  margin: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+p.or {
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 #previewComponent{
@@ -35,13 +87,36 @@ ol, ul {
 }
 
 .workImage {
-  width:400px;
+  width:200px;
   height:auto;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
 
+.myButton {
+  background-color: #EDEEF0;
+  border: 2px solid #ffffff;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 40px;
+  cursor: pointer;
+}
+
+.myForm {
+  background-color: #FFFFFF;
+  border: 2px solid #ffffff;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 40px;
+  cursor: pointer;
+}
 
 .hide {
   display: none;
